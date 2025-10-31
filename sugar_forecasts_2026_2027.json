@@ -1,0 +1,270 @@
+{
+  "generation_date": "2025-10-29 09:45:13.102700",
+  "data_sources": {
+    "last_historical_date": "2025-10-07 00:00:00",
+    "last_historical_price": 16.439999999999998,
+    "ice_futures_loaded": 11,
+    "price_scale": "dollars_per_pound"
+  },
+  "model_performance": {
+    "final_training_loss": 0.00143014220520854,
+    "final_validation_loss": 0.004602027125656605,
+    "final_training_mae": 0.02672293595969677,
+    "final_validation_mae": 0.0642426460981369,
+    "training_epochs": 29
+  },
+  "quarterly_forecasts": [
+    {
+      "date": "2026-03-31 00:00:00",
+      "forecast_price": 15.360874832153321,
+      "days_ahead": 175,
+      "confidence": 0.6561643835616439,
+      "quarter": "Q1 2026",
+      "method": "BLENDED",
+      "ice_guidance_used": true
+    },
+    {
+      "date": "2026-06-30 00:00:00",
+      "forecast_price": 15.16487483215332,
+      "days_ahead": 266,
+      "confidence": 0.5813698630136986,
+      "quarter": "Q2 2026",
+      "method": "BLENDED",
+      "ice_guidance_used": true
+    },
+    {
+      "date": "2026-09-30 00:00:00",
+      "forecast_price": 15.200874832153321,
+      "days_ahead": 358,
+      "confidence": 0.5057534246575344,
+      "quarter": "Q3 2026",
+      "method": "BLENDED",
+      "ice_guidance_used": true
+    },
+    {
+      "date": "2026-12-30 00:00:00",
+      "forecast_price": 15.886321099016937,
+      "days_ahead": 449,
+      "confidence": 0.3,
+      "quarter": "Q4 2026",
+      "method": "MODEL_ONLY",
+      "ice_guidance_used": false
+    },
+    {
+      "date": "2027-03-30 00:00:00",
+      "forecast_price": 15.40887483215332,
+      "days_ahead": 539,
+      "confidence": 0.4,
+      "quarter": "Q1 2027",
+      "method": "BLENDED",
+      "ice_guidance_used": true
+    },
+    {
+      "date": "2027-06-30 00:00:00",
+      "forecast_price": 15.30087483215332,
+      "days_ahead": 631,
+      "confidence": 0.4,
+      "quarter": "Q2 2027",
+      "method": "BLENDED",
+      "ice_guidance_used": true
+    },
+    {
+      "date": "2027-09-30 00:00:00",
+      "forecast_price": 15.32487483215332,
+      "days_ahead": 723,
+      "confidence": 0.4,
+      "quarter": "Q3 2027",
+      "method": "BLENDED",
+      "ice_guidance_used": true
+    },
+    {
+      "date": "2027-12-30 00:00:00",
+      "forecast_price": 18.154574625329573,
+      "days_ahead": 814,
+      "confidence": 0.3,
+      "quarter": "Q4 2027",
+      "method": "MODEL_ONLY",
+      "ice_guidance_used": false
+    }
+  ],
+  "market_analysis": {
+    "total_forecasts_generated": 8,
+    "forecast_price_range": {
+      "min": 15.16487483215332,
+      "max": 18.154574625329573,
+      "average": 15.725268089658304
+    },
+    "confidence_summary": {
+      "average_confidence": 0.4429109589041096,
+      "min_confidence": 0.3,
+      "max_confidence": 0.6561643835616439
+    }
+  },
+  "comprehensive_comparison": [
+    {
+      "quarter": "Q1 2026",
+      "model_price": 15.360874832153321,
+      "confidence": 0.6561643835616439,
+      "days_ahead": 175,
+      "ice_price": 14.97,
+      "difference_pct": 2.6110543230014738,
+      "ice_data_available": true,
+      "action": "HOLD"
+    },
+    {
+      "quarter": "Q2 2026",
+      "model_price": 15.16487483215332,
+      "confidence": 0.5813698630136986,
+      "days_ahead": 266,
+      "ice_price": 14.48,
+      "difference_pct": 4.729798564594747,
+      "ice_data_available": true,
+      "action": "HOLD"
+    },
+    {
+      "quarter": "Q3 2026",
+      "model_price": 15.200874832153321,
+      "confidence": 0.5057534246575344,
+      "days_ahead": 358,
+      "ice_price": 14.57,
+      "difference_pct": 4.329957667490191,
+      "ice_data_available": true,
+      "action": "HOLD"
+    },
+    {
+      "quarter": "Q4 2026",
+      "model_price": 15.886321099016937,
+      "confidence": 0.3,
+      "days_ahead": 449,
+      "ice_price": null,
+      "difference_pct": null,
+      "ice_data_available": false,
+      "action": "MODEL_ONLY_NO_ICE"
+    },
+    {
+      "quarter": "Q1 2027",
+      "model_price": 15.40887483215332,
+      "confidence": 0.4,
+      "days_ahead": 539,
+      "ice_price": 15.09,
+      "difference_pct": 2.1131532945879368,
+      "ice_data_available": true,
+      "action": "HOLD"
+    },
+    {
+      "quarter": "Q2 2027",
+      "model_price": 15.30087483215332,
+      "confidence": 0.4,
+      "days_ahead": 631,
+      "ice_price": 14.82,
+      "difference_pct": 3.244769447728208,
+      "ice_data_available": true,
+      "action": "HOLD"
+    },
+    {
+      "quarter": "Q3 2027",
+      "model_price": 15.32487483215332,
+      "confidence": 0.4,
+      "days_ahead": 723,
+      "ice_price": 14.88,
+      "difference_pct": 2.989750216084134,
+      "ice_data_available": true,
+      "action": "HOLD"
+    },
+    {
+      "quarter": "Q4 2027",
+      "model_price": 18.154574625329573,
+      "confidence": 0.3,
+      "days_ahead": 814,
+      "ice_price": null,
+      "difference_pct": null,
+      "ice_data_available": false,
+      "action": "MODEL_ONLY_NO_ICE"
+    }
+  ],
+  "futures_comparison": {
+    "total_comparisons": 6,
+    "price_difference_summary": {
+      "average_difference_pct": 3.3364139189144484,
+      "max_positive_difference_pct": 4.729798564594747,
+      "max_negative_difference_pct": 2.1131532945879368,
+      "average_absolute_difference_pct": 3.3364139189144484
+    },
+    "detailed_comparisons": [
+      {
+        "forecast_date": "2026-03-31 00:00:00",
+        "futures_date": "2026-03-31 00:00:00",
+        "days_difference": 0,
+        "model_forecast": 15.360874832153321,
+        "ice_futures": 14.97,
+        "price_difference": 0.39087483215332064,
+        "price_difference_pct": 2.6110543230014738,
+        "model_confidence": 0.6561643835616439,
+        "comparison_quarter": "Q1 2026"
+      },
+      {
+        "forecast_date": "2026-06-30 00:00:00",
+        "futures_date": "2026-05-31 00:00:00",
+        "days_difference": -30,
+        "model_forecast": 15.16487483215332,
+        "ice_futures": 14.48,
+        "price_difference": 0.6848748321533193,
+        "price_difference_pct": 4.729798564594747,
+        "model_confidence": 0.5813698630136986,
+        "comparison_quarter": "Q2 2026"
+      },
+      {
+        "forecast_date": "2026-09-30 00:00:00",
+        "futures_date": "2026-09-30 00:00:00",
+        "days_difference": 0,
+        "model_forecast": 15.200874832153321,
+        "ice_futures": 14.57,
+        "price_difference": 0.6308748321533209,
+        "price_difference_pct": 4.329957667490191,
+        "model_confidence": 0.5057534246575344,
+        "comparison_quarter": "Q3 2026"
+      },
+      {
+        "forecast_date": "2027-03-30 00:00:00",
+        "futures_date": "2027-03-31 00:00:00",
+        "days_difference": 1,
+        "model_forecast": 15.40887483215332,
+        "ice_futures": 15.09,
+        "price_difference": 0.3188748321533197,
+        "price_difference_pct": 2.1131532945879368,
+        "model_confidence": 0.4,
+        "comparison_quarter": "Q1 2027"
+      },
+      {
+        "forecast_date": "2027-06-30 00:00:00",
+        "futures_date": "2027-05-31 00:00:00",
+        "days_difference": -30,
+        "model_forecast": 15.30087483215332,
+        "ice_futures": 14.82,
+        "price_difference": 0.4808748321533205,
+        "price_difference_pct": 3.244769447728208,
+        "model_confidence": 0.4,
+        "comparison_quarter": "Q2 2027"
+      },
+      {
+        "forecast_date": "2027-09-30 00:00:00",
+        "futures_date": "2027-09-30 00:00:00",
+        "days_difference": 0,
+        "model_forecast": 15.32487483215332,
+        "ice_futures": 14.88,
+        "price_difference": 0.44487483215331913,
+        "price_difference_pct": 2.989750216084134,
+        "model_confidence": 0.4,
+        "comparison_quarter": "Q3 2027"
+      }
+    ]
+  },
+  "trading_insights": {
+    "total_quarters_with_ice_data": 6,
+    "total_quarters_model_only": 2,
+    "model_above_ice_count": 6,
+    "model_below_ice_count": 0,
+    "model_above_ice_percentage": 100.0,
+    "arbitrage_opportunities": []
+  }
+}
