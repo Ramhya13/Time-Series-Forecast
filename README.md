@@ -30,11 +30,6 @@ Built an LSTM (Long Short-Term Memory) model for sequence-based forecasting.
 Trained using 80% of data and validated on the remaining 20%.
 Captured long-term temporal dependencies between sugar price and external factors.
 
-4. Model Evaluation
-Assessed performance using key metrics:
-MAE: 0.0063
-RMSE: 0.0078
-MAPE: 14.39%
 
 Compared LSTM-predicted prices with ICE Futures data to assess alignment.
 
